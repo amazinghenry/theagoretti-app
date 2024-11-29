@@ -1,0 +1,41 @@
+.mission-container {
+    padding: 80px 20px;
+    background-color: #E0E7E4;
+}
+
+.mission-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+
+.mission-item h2 {
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.mission-item h2::before {
+    content: 'Our Mission';
+    display: block;
+    margin-bottom: 20px;
+    color: #6b6b6b;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.mission-item p {
+    color: #6b6b6b;
+    margin-bottom: 40px;
+}
+
+
+@media screen and (max-width:768px) {
+    .mission-group {
+        grid-template-columns: 1fr;
+    }
+    .mission-image {
+        margin-top: 40px;
+    }
+}

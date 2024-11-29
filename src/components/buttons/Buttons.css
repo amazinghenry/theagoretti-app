@@ -1,0 +1,19 @@
+.button-style {
+    background-color: var(--pri-clr);
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 20px 30px;
+    border-radius: 4px;
+}
+
+.button-style :hover {
+    background-color: #004F3F;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 20px 30px;
+    border-radius: 4px;
+}

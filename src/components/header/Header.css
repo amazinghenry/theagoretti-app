@@ -1,0 +1,63 @@
+header {
+    padding: 80px 20px;
+}
+
+.header-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-item h1 {
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.header-item h1::before {
+    content: 'Welcome to Thea Goretti Care Foundation';
+    display: block;
+    margin-bottom: 20px;
+    color: #6b6b6b;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.header-item p {
+    color: #6b6b6b;
+    margin-bottom: 40px;
+}
+
+.header-image {
+    justify-self: end;
+}
+
+.header-button {
+    background-color: var(--pri-clr);
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 20px 30px;
+    border-radius: 4px;
+}
+
+.header-button:hover {
+    background-color: #004F3F;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 20px 30px;
+    border-radius: 4px;
+}
+
+
+@media screen and (max-width:768px) {
+    .header-group {
+        grid-template-columns: 1fr;
+    }
+    .header-image {
+        justify-self: center;
+        margin-top: 30px;
+    }
+}

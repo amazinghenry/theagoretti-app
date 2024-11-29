@@ -1,0 +1,42 @@
+.joinus-container {
+    padding: 80px 20px;
+    background-color: var(--pri-clr);
+}
+
+.joinus-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+
+.joinus-item h2 {
+    font-weight: 700;
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+.joinus-item h2::before {
+    content: 'Become a Volunteer';
+    display: block;
+    margin-bottom: 20px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.joinus-item p {
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+
+@media screen and (max-width:768px) {
+    .joinus-group {
+        grid-template-columns: 1fr;
+    }
+    .joinus-image {
+        margin-top: 40px;
+    }
+}

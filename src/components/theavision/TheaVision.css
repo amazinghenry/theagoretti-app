@@ -1,0 +1,42 @@
+.vision-container {
+    padding: 80px 20px;
+}
+
+.vision-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+
+.vision-item h2 {
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.vision-item h2::before {
+    content: 'Our Vision';
+    display: block;
+    margin-bottom: 20px;
+    color: #6b6b6b;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+
+.vision-item p {
+    color: #6b6b6b;
+    margin-bottom: 40px;
+}
+
+
+@media screen and (max-width:768px) {
+    .vision-group {
+        grid-template-columns: 1fr;
+    }
+    .vision-image {
+        margin-bottom: 40px;
+    }
+
+}
